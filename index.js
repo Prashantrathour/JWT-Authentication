@@ -17,7 +17,7 @@ app.listen(8080,async()=>{
 
     console.log("Connected  to server")
 
-} catch (error) {
-   console.log(error) 
+} catch (err) {
+   console.log(err) 
 } 
 })
